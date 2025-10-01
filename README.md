@@ -7,7 +7,7 @@ sdk: docker
 pinned: false
 license: mit
 app_port: 7860
-short_description: Interactive digit recognition using CNN trained on MNIST dataset
+short_description: Interactive digit recognition using CNN
 ---
 
 # 🎯 Digit Recognition App
