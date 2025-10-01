@@ -93,5 +93,5 @@ def health():
 if __name__ == '__main__':
     load_model()
     # For Hugging Face Spaces, use the PORT environment variable
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 7860))
     app.run(debug=False, host='0.0.0.0', port=port)
